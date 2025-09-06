@@ -1,0 +1,200 @@
+/* Header */
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #1abc9c;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 28px;
+    color: white;
+}
+
+.hero p {
+    font-size: 18px;
+    color: white;
+}
+
+.hero button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* About Section */
+.about {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    padding: 50px;
+}
+
+.about h2 {
+    font-size: 26px;
+    color: #2c3e50;
+}
+
+.about p {
+    font-size: 16px;
+    color: #2c3e50;
+}
+
+.about ul li {
+    font-size: 16px;
+    color: #2c3e50;
+}
+
+/* Cards Section */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #bdc3c7;
+}
+
+.card {
+    background-color: #f39c12;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.card h3 {
+    font-size: 20px;
+    color: white;
+}
+
+.card p {
+    font-size: 14px;
+    color: white;
+}
+
+/* Portfolio Section */
+.portfolio {
+    padding: 50px;
+    background-color: #ecf0f1;
+}
+
+.portfolio h2 {
+    font-size: 26px;
+    color: #2c3e50;
+}
+
+.portfolio-items img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+/* Services Section */
+.services {
+    padding: 50px;
+    background-color: #f1c40f;
+    color: white;
+}
+
+.services h2 {
+    font-size: 26px;
+    color: white;
+}
+
+.services ol li {
+    font-size: 16px;
+    color: white;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px;
+    background-color: #95a5a6;
+    color: white;
+}
+
+.contact h2 {
+    font-size: 26px;
+    color: white;
+}
+
+.contact label {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.contact button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Table Section */
+.table-section {
+    padding: 50px;
+    background-color: #ecf0f1;
+}
+
+.table-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-section th,
+.table-section td {
+    border: 1px solid #2c3e50;
+    padding: 10px;
+    font-size: 16px;
+    color: #2c3e50;
+}
+
+/* Footer */
+footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
